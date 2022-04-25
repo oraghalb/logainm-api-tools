@@ -2,9 +2,10 @@
 
 A collection of example Python scripts to guide users as to how they might retrieve, parse and use data from the Logainm API ([docs.gaois.ie](https://docs.gaois.ie/en/data/getting-started)).
 
-To run on Windows, install [Python](https://www.python.org/) (adding Python to PATH), open a command prompt (run cmd), navigate to the folder containing the script (i.e. `\> cd \<PATH_TO_FOLDER_CONTAINING_SCRIPT\>`), and type `python \<SCRIPT_NAME\>`, e.g.:
+To run on Windows, install [Python](https://www.python.org/) (adding Python to PATH), open a command prompt (run cmd), navigate to the folder containing the script (i.e. `> cd <PATH_TO_FOLDER_CONTAINING_SCRIPT>`), and type `python <SCRIPT_NAME>`, e.g.
 
 ```
+> cd C:\MyPythonScripts
 > python logainm_api_results_to_table.py
 ```
 
