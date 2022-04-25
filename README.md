@@ -6,16 +6,20 @@ A collection of example Python scripts to guide users as to how they might retri
 
 This script gets a list of places of a specified type from a specified county in Ireland from the Logainm API and prints place metadata (one place per line) to a TSV formatted file with the following columns:
 
-> logainm_id | lat | lon | county | barony | parish | cats | names_en | names_ga
+```
+logainm_id | lat | lon | county | barony | parish | cats | names_en | names_ga
+```
 
 For example, for townlands (BF) in Carlow (100004), this would be the first five lines of output (vertical bars are inserted here for clarity):
 
-> 3000 | 52.8268601272065 | -6.58634818810364 | 100004 Carlow | 1 Rathvilly | 1411069 Clonmore | townland | Ballaghaclay | Bealach an tSléibhe  
-> 3001 | 52.8388492391207 | -6.53371364645032 | 100004 Carlow | 1 Rathvilly | 1411069 Clonmore | townland | Ballinagilky | Baile na Giolcaí  
-> 3002 | 52.8365069012364 | -6.60636780935882 | 100004 Carlow | 1 Rathvilly | 1411069 Clonmore | townland | Ballyduff | An Baile Dubh  
-> 3003 | 52.8258526764742 | -6.60526952627927 | 100004 Carlow | 1 Rathvilly | 1411069 Clonmore | townland | Ballynakill | Baile na Coille  
-> 3004 | 52.8235812668175 | -6.54264046126135 | 100004 Carlow | 1 Rathvilly | 1411069 Clonmore | townland | Bellmount | Bellmount  
-> ...
+```
+3000 | 52.8268601272065 | -6.58634818810364 | 100004 Carlow | 1 Rathvilly | 1411069 Clonmore | townland | Ballaghaclay | Bealach an tSléibhe  
+3001 | 52.8388492391207 | -6.53371364645032 | 100004 Carlow | 1 Rathvilly | 1411069 Clonmore | townland | Ballinagilky | Baile na Giolcaí  
+3002 | 52.8365069012364 | -6.60636780935882 | 100004 Carlow | 1 Rathvilly | 1411069 Clonmore | townland | Ballyduff | An Baile Dubh  
+3003 | 52.8258526764742 | -6.60526952627927 | 100004 Carlow | 1 Rathvilly | 1411069 Clonmore | townland | Ballynakill | Baile na Coille  
+3004 | 52.8235812668175 | -6.54264046126135 | 100004 Carlow | 1 Rathvilly | 1411069 Clonmore | townland | Bellmount | Bellmount  
+...
+```
 
 This script can easily be modified to produce different output.
 
