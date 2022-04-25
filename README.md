@@ -2,6 +2,12 @@
 
 A collection of example Python scripts to guide users as to how they might retrieve, parse and use data from the Logainm API ([docs.gaois.ie](https://docs.gaois.ie/en/data/getting-started)).
 
+To run on Windows, install [Python](https://www.python.org/) (adding Python to PATH), open a command prompt (run cmd), navigate to the folder containing the script (i.e. `\> cd \<PATH_TO_FOLDER_CONTAINING_SCRIPT\>`), and type `python \<SCRIPT_NAME\>`, e.g.:
+
+```
+> python logainm_api_results_to_table.py
+```
+
 ## Script 1: logainm_api_results_to_table.py
 
 This script gets a list of places of a specified type from a specified county in Ireland from the Logainm API and prints place metadata (one place per line) to a TSV formatted file with the following columns:
