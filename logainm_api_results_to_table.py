@@ -70,9 +70,9 @@ def parse_place(place_data):
     p = Place(str(logainm_id), str(lat), str(lon), county, barony, parish, ', '.join(cats), ', '.join(names_en), ', '.join(names_ga))
     return p
 
+api_key = '' # Get key here: https://www.gaois.ie/en/technology/developers/registration/
 place_id = '100004' # EDIT (i.e. 100000 to 100031)
 category_id = 'BF' # EDIT (e.g. CON, BAR, PAR, BF, TR, B)
-api_key = '' # Get key here: https://www.gaois.ie/en/technology/developers/registration/
 
 # Run API query and cache (i.e. save to file), if not already cached:
 if not os.path.isfile('logainm_'+place_id+'_'+category_id+'.json'):
