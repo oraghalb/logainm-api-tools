@@ -36,7 +36,7 @@ You will also need to assign values to certain variables before you run the scri
 
 On Line 75, you will need to provide your Logainm API KEY. API keys can be obtained by registering here:
 
-`[https://www.gaois.ie/en/technology/developers/registration/](https://www.gaois.ie/en/technology/developers/registration/)`
+[https://www.gaois.ie/en/technology/developers/registration/](https://www.gaois.ie/en/technology/developers/registration/)
 
 On Line 73, you will need to specify a Logainm COUNTY ID. A reference list of counties can be retrieved from the API at the following path:
 
