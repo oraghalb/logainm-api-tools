@@ -30,21 +30,21 @@ For example, for townlands (BF) in Carlow (100004), this would be the first five
 
 This script requires the `requests` package. To install this package, run the following command, before you run the script:
 
-`pip install requests`
+> `> pip install requests`
 
 You will also need to assign values to certain variables before you run the script.
 
 On Line 75, you will need to provide your Logainm API KEY. API keys can be obtained by registering here:
 
-[https://www.gaois.ie/en/technology/developers/registration/](https://www.gaois.ie/en/technology/developers/registration/)
+> [https://www.gaois.ie/en/technology/developers/registration/](https://www.gaois.ie/en/technology/developers/registration/)
 
 On Line 73, you will need to specify a Logainm COUNTY ID. A reference list of counties can be retrieved from the API at the following path:
 
-`https://www.logainm.ie/api/v1.0/counties?apiKey=API_KEY_HERE`
+> `https://www.logainm.ie/api/v1.0/counties?apiKey=API_KEY_HERE`
 
 On Line 74, you will need to specify a Logainm PLACE TYPE ID. A reference list of Irish place types (i.e. administrative units) can be retrieved from the API at the following path:
 
-`https://www.logainm.ie/api/v1.0/administrative-units?apiKey=API_KEY_HERE`
+> `https://www.logainm.ie/api/v1.0/administrative-units?apiKey=API_KEY_HERE`
 
 This script can easily be modified to produce different output.
 
