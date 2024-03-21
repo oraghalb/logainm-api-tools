@@ -51,3 +51,11 @@ This script can easily be modified to produce different output.
 ## Script 2: logainm_api_track_intersections.py
 
 This script takes a track in GPX format and prints out the list of Logainm townlands the track intersects in a specified county.
+
+## Script 3: logainm_api_get_all_streets_townlands_and_towns.py
+
+This module gets all streets, townlands and towns in Ireland from the Logainm API and prints place metadata (one place per line) to a TSV formatted file with the following columns:
+
+```
+logainm_id | lat | lon | county | barony | parish | cats | names_en | names_ga
+```
