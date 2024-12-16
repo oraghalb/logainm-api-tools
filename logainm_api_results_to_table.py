@@ -11,16 +11,16 @@ import os
 import requests
 
 class Place:
-  def __init__(self, logainm_id, lat, lon, county, barony, parish, cats, names_en, names_ga):
-    self.logainm_id = logainm_id
-    self.lat = lat
-    self.lon = lon
-    self.county = county
-    self.barony = barony
-    self.parish = parish
-    self.cats = cats
-    self.names_en = names_en
-    self.names_ga = names_ga
+    def __init__(self, logainm_id, lat, lon, county, barony, parish, cats, names_en, names_ga):
+        self.logainm_id = logainm_id
+        self.lat = lat
+        self.lon = lon
+        self.county = county
+        self.barony = barony
+        self.parish = parish
+        self.cats = cats
+        self.names_en = names_en
+        self.names_ga = names_ga
 
 def parse_place(place_data):
 
