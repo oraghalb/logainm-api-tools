@@ -59,3 +59,11 @@ This module gets all streets, townlands and towns in Ireland from the Logainm AP
 ```
 logainm_id | lat | lon | county | barony | parish | cats | names_en | names_ga
 ```
+
+## Script 4: logainm_api_get_all_administrative_names.py
+
+This module gets all administrative names in Ireland from the Logainm API and prints placenames and metadata (one place per line) to a TSV and XLSX formatted file with the following columns:
+
+```
+logainm_id | lat | lon | county | cats | names_en | names_ga | names_ga_genitive | link
+```
